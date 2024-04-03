@@ -14,11 +14,17 @@ Our method begin with training a 3DGS model, here is the rough pipeline of the f
 
 ![3DGS_Pipeline](./assets/3DGS_Pipeline.png)
 
-Then we add L1 regularization term and Entropy Loss to the objective function in 3DGS to prune the unnesassery Gaussian
+Then we add L1 regularization term and Entropy Loss to the objective function in 3DGS to prune the unnesassery Gaussian:
 
+![Mesh.drawio](./assets/Mesh.drawio.png)
 
+Finally, we can run the Poisson Reconstruction on the level set and obtain the mesh object:
 
+![lego_mesh](./assets/lego_mesh.png)
 
+Here is the results from the SuGaR viewer:
+
+![results](./assets/results.png)
 
 ## Installation
 
