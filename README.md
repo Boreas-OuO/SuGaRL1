@@ -12,7 +12,7 @@ We propose a method to accelerate the extraction of meshes from 3D Gaussian Spla
 
 Our method begin with training a 3DGS model, here is the rough pipeline of the forward propagation in 3DGS:
 
-![3DGS_Pipeline](.\assets\3DGS_Pipeline.png)
+![3DGS_Pipeline](./assets/3DGS_Pipeline.png)
 
 Then we add L1 regularization term and Entropy Loss to the objective function in 3DGS to prune the unnesassery Gaussian
 
